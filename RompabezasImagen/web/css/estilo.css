@@ -1,9 +1,9 @@
 body {
-    background-color: #f5a623; /* Naranja de baloncesto */
+    background-color: #f5a623; 
     margin: 0;
     padding: 0;
-    font-family: 'Oswald', Arial, sans-serif; /* Fuente deportiva */
-    min-height: 100vh; /* Cobertura completa del viewport */
+    font-family: 'Oswald', Arial, sans-serif; 
+    min-height: 100vh; 
 }
 
 .container {
@@ -13,7 +13,7 @@ body {
     max-width: 1200px;
     margin: 20px auto;
     overflow-x: auto;
-    background-color: rgba(255, 255, 255, 0.15); /* Semitransparente para contraste */
+    background-color: rgba(255, 255, 255, 0.15); 
     border-radius: 10px;
     padding: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
@@ -44,9 +44,9 @@ p {
     grid-template-columns: repeat(4, 184px);
     grid-template-rows: repeat(4, 219px);
     gap: 5px;
-    width: 740px; /* 4x184px + gaps */
+    width: 740px; 
     margin: 0 auto;
-    border: 2px solid #3c2f2f; /* Borde marrón como cancha */
+    border: 2px solid #3c2f2f; 
 }
 
 .celda {
@@ -56,17 +56,17 @@ p {
     background-position: center;
     border-radius: 5px;
     cursor: pointer;
-    border: 1px solid #ffffff; /* Borde blanco como líneas de cancha */
+    border: 1px solid #ffffff; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease;
 }
 
 .celda:hover {
-    transform: scale(1.05); /* Zoom ligero al pasar el ratón */
+    transform: scale(1.05); 
 }
 
 .vacio {
-    background-color: #8b5a2b; /* Color madera de cancha */
+    background-color: #8b5a2b; 
     background-image: none;
     cursor: default;
     border: 1px solid #ffffff;
@@ -92,7 +92,7 @@ p {
     height: auto;
     object-fit: contain;
     border-radius: 15px;
-    border: 3px solid #000000; /* Borde negro para vibe de baloncesto */
+    border: 3px solid #000000;
     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.4);
 }
 
@@ -104,7 +104,7 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 8px;
-    background-color: #e74c3c; /* Naranja-rojo enérgico */
+    background-color: #e74c3c; 
     color: #ffffff;
     font-family: 'Oswald', Arial, sans-serif;
     text-transform: uppercase;
@@ -113,7 +113,7 @@ button {
 }
 
 button:hover {
-    background-color: #c0392b; /* Rojo más oscuro al pasar el ratón */
+    background-color: #c0392b; 
 }
 
 #time {
